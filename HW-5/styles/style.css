@@ -65,12 +65,16 @@ form {
     background-color: rgb(68, 68, 68);
     border: none;
 }
-#square {
+form::after {
+    content: url('../images/magnifying-glass-solid.svg');
+    width: 15px;
+    padding-top: 10px;
+}
+.square {
     width: 15px;
     background-color: #fff;
-    color: rgb(43, 118, 246);
-    margin: 5px;
-}
+    margin-left: 5px;
+} 
 .table-dots-2 {
     opacity: 100%;
 }
