@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-color: rgb(44, 44, 44);
+}
+table {
+    border: 1px solid rgb(78, 78, 78);
+    border-collapse: collapse;
+    width: 70%;
+    color: #fff;
+    margin-bottom: 30px;
+    background-color: rgb(47, 47, 47);
+}
+tr {
+    border-bottom: 1px solid rgb(78, 78, 78);
+}
+th {
+    text-align: left;
+}
+.container-table {
+    margin: 80px 50px;
+}
+.table-name {
+    margin-right: 10px;
+}
+.table-name::after {
+    content: "";
+    border-left: 8px solid white;
+    border-right: 8px solid white;
+    clip-path: polygon(46% 34%, 67% 57%, 89% 34%);
+}
+th, td {
+    padding: 15px;
+    width: 40%;
+}
+.table-comment, .table-dots {
+    opacity: 50%;
+}
+.checkbox-text {
+    margin-left: 5px;
+}
+.checkbox-file {
+    opacity: 70%;
+}
+input:checked {
+    border: none;
+}
+.table-dots {
+    text-align: end;
+}
+form {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5px;
+    background-color: rgb(68, 68, 68);
+}
+.table-search {
+    padding: 0;
+}
+#search {
+    border: none;
+    width: 10px;
+}
+#search-text {
+    padding: 10px;
+    background-color: rgb(68, 68, 68);
+    border: none;
+}
+#square {
+    width: 15px;
+    background-color: #fff;
+    color: rgb(43, 118, 246);
+    margin: 5px;
+}
+.table-dots-2 {
+    opacity: 100%;
+}
+input[type="checkbox"] {
+    color: rgb(68, 68, 68);
+}
+.archive-img {
+    margin-right: 7px;
+}
+
