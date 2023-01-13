@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@700;800&family=Open+Sans:wght@300&family=Roboto:wght@100;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header-nav">
+                <img src="./images/Logo.svg" alt="Logo" class="header-logo">
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#About" class="nav-bold">About</a></li>
+                        <li><a href="#Help">Help</a></li>
+                        <li><a href="#Features">Features</a></li>
+                        <li><a href="#Signup">Signup</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <button class="header-button">Request Demo<span><img src="./images/Group 56.svg" alt="Button arrow"
+                        class="header-arrow"></span></button>
+        </header>
+        <main>
+            <section id="About" class="about">
+                <div class="about-info">
+                    <h1 class="about-title">Save your data storage here.</h1>
+                    <p class="about-text">
+                        Data Warehouse is a data storage area that has been
+                        tested for security, so you can store your data here
+                        safely but not be afraid of being stolen by others.
+                    </p>
+                    <button class="about-button">Learn more</button>
+                </div>
+                <img src="./images/image1 1.png" alt="About us" class="about-img">
+            </section>
+
+            <section class="security">
+                <img src="./images/image2.png" alt="Image about bank's security">
+                <div class="security-info">
+                    <h2 class="security-title">We are a high-level data storage bank</h2>
+                    <p class="security-text">
+                        The place to store various data that you can access at any time through the internet and where
+                        you can carry it.
+                        This very flexible storage area has a high level of security. To enter into your own data you
+                        must enter the password that you created when you registered in this Data Warehouse.
+                    </p>
+                </div>
+            </section>
+
+            <section id="Features">
+                <div class="features-header">
+                    <h2 class="features-title">Features</h2>
+                    <p class="features-text features-description">Some of the features and advantages that we provide
+                        for those of you who store data in this Data Warehouse.</p>
+                </div>
+
+                <div class="features">
+                    <div class="features-card">
+                        <img src="./images/image3 1.png" alt="Search data" class="card-img">
+                        <div class="card-group">
+                            <h3 class="card-title">Search Data</h3>
+                            <p class="card-text">Don't worry if your data is very large, the Data Warehoue provides a
+                                search engine, which is useful for making it easier to find data effectively saving
+                                time.</p>
+                            <button class="features button">Learn more<span><img src="./images/Group 56.svg"
+                                        alt="Button arrow" class="header-arrow"></span></button>
+                        </div>
+                    </div>
+
+                    <div class="features-card">
+                        <img src="./images/image4.png" alt="24 hours access" class="card-img">
+                        <div class="card-group">
+                            <h3 class="card-title">24 Hours Access</h3>
+                            <p class="card-text">
+                                Access is given 24 hours a full morning to night and
+                                meet again in the morning, giving you comfort when
+                                you need data when urgent.
+                            </p>
+                            <button class="features button">Learn more<span><img src="./images/Group 56.svg"
+                                        alt="Button arrow" class="header-arrow"></span></button>
+                        </div>
+                    </div>
+
+                    <div class="features-card">
+                        <img src="./images/image5 1.png" alt="Print out" class="card-img">
+                        <div class="card-group">
+                            <h3 class="card-title">Print Out</h3>
+                            <p class="card-text">
+                                Print out service gives you convenience if someday
+                                you need print data, just edit it all and just print it.
+                            </p>
+                            <button class="features button">Learn more<span><img src="./images/Group 56.svg"
+                                        alt="Button arrow" class="header-arrow"></span></button>
+                        </div>
+
+                    </div>
+
+                    <div class="features-card">
+                        <img src="./images/image6 1.png" alt="Security code" class="card-img">
+                        <div class="card-group">
+                            <h3 class="card-title">Security Code</h3>
+                            <p class="card-text">
+                                Data Security is one of our best facilities. Allows for your files
+                                to be safer. The file can be secured with a code or password that
+                                you created, so only you can open the file.
+                            </p>
+
+                            <button class="features button">Learn more<span><img src="./images/Group 56.svg"
+                                        alt="Button arrow" class="header-arrow"></span></button>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="slider-container">
+                <h2 class="slider-title">Testimonials</h2>
+                <div class="slider-custom">
+                    <div class="slider-card">
+
+                        <div class="slider-review">
+                            <img src="./images/Ellipse 76.svg" alt="John Fang" class="slider-img">
+                            <blockquote>
+                                <p class="review-author">John Fang</p>
+                                <a href="#" class="review-link">wordfaang.com</a>
+                                <div class="review-comment">
+                                    <p>Suspendisse ultrices at diam lectus nullam.</p>
+                                    <p>
+                                        Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar
+                                        aenean nam
+                                        laoreet nulla.
+                                    </p>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="slider-card">
+                        <div class="slider-review">
+                            <img src="./images/Ellipse 76.svg" alt="John Fang" class="slider-img">
+                            <blockquote>
+                                <p class="review-author">John Fang</p>
+                                <a href="#" class="review-link">wordfaang.com</a>
+                                <div class="review-comment">
+                                    <p>Suspendisse ultrices at diam lectus nullam.</p>
+                                    <p>
+                                        Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar
+                                        aenean nam
+                                        laoreet nulla.
+                                    </p>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="slider-card">
+                        <div class="slider-review">
+                            <img src="./images/Ellipse 76.svg" alt="John Fang" class="slider-img">
+                            <blockquote>
+                                <p class="review-author">John Fang</p>
+                                <a href="#" class="review-link">wordfaang.com</a>
+                                <div class="review-comment">
+                                    <p>Suspendisse ultrices at diam lectus nullam.</p>
+                                    <p>
+                                        Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar
+                                        aenean nam
+                                        laoreet nulla.
+                                    </p>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="slider-card">
+                        <div class="slider-review">
+                            <img src="./images/Ellipse 76.svg" alt="John Fang" class="slider-img">
+                            <blockquote>
+                                <p class="review-author">John Fang</p>
+                                <a href="#" class="review-link">wordfaang.com</a>
+                                <div class="review-comment">
+                                    <p>Suspendisse ultrices at diam lectus nullam.</p>
+                                    <p>
+                                        Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar
+                                        aenean nam
+                                        laoreet nulla.
+                                    </p>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="actions">
+                    <button class="arrow prev"><span class="arrow-left">&larr;</span></button>
+                    <button class="arrow next"><span class="arrow-right">&rarr;</span></button>
+                    <div class="slick-dots"></div>
+                </div>
+            </section>
+        </main>
+        <hr>
+        <footer>
+            <div class="footer-info">
+                    <div class="info">
+                        <h4 class="info-title">Try for free!</h4>
+                        <p class="info-text">Get limited 1 week free try our features!</p>
+                    </div>
+                    <div class="info-buttons">
+                        <button class="about-button info-btn">Learn more</button>
+                        <button class="request-button">Request Demo<span><img src="./images/Group 56.svg" alt="Button arrow" class="header-arrow"></span></button>
+                    </div>
+                </div>
+            <div class="footer-contacts">
+                <div class="contacts-one">
+                    <div class="contacts-title-container">
+                        <img src="./images/Logo.svg" alt="Logo" class="contacts-logo">
+                        <h5 class="contacts-title">DataWarehouse</h5>
+                    </div>
+                    <address class="address">
+                            Warehouse Society, 234 <br>
+                            Bahagia Ave Street PRBW 29281
+                    </address>
+                    <a href="mailto:info@warehouse.project" class="contacts">info@warehouse.project</a><br>
+                    <a href="tel:1-232-3434" class="contacts">1-232-3434 (Main)</a>
+                </div>
+                <div class="contacts-two">
+                    <h5 class="title">About</h5>
+                    <a href="#">Profile</a>
+                    <a href="#">Features</a>
+                    <a href="#">Careers</a>
+                    <a href="#">DW News</a>
+                </div>
+                <div class="contacts-three">
+                    <h5 class="title" id="Help">Help</h5>
+                    <a href="#">Support</a>
+                    <a href="#" id="Signup">Sign up</a>
+                    <a href="#">Guide</a>
+                    <a href="#">Reports</a>
+                    <a href="#">Q&A</a>
+                </div>
+                <div class="contacts-four">
+                    <h5 class="title">Social Media</h5>
+                    <img src="./images/f.svg" alt="Facebook icon">
+                    <img src="./images/t.svg" alt="Twitter icon">
+                    <img src="./images/i.svg" alt="Linkedin icon">
+                </div>
+            </div>
+                <div class="copyright">
+                    <div class="copyright-info">
+                        <p>© Datawarehouse™, 2020. All rights reserved.</p>
+                        <p>Company Registration Number: 21479524.</p>
+                    </div>
+                    <div>
+                        <img src="./images/Group 64.svg" alt="Write message">
+                    </div>
+                </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.slider-custom').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            prevArrow: $(".prev"),
+            nextArrow: $(".next"),
+            adaptiveHeight: true,
+        });
+    </script>
+
+</body>
+
+</html>
