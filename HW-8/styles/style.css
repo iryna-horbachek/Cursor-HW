@@ -43,16 +43,17 @@ body {
     color: #000;
     font-size: 28px;
     margin-right: 80px;
+    position: relative;
 }
 .social-links a, .logo-links a {
     margin-right: 40px;
     cursor: pointer;
 }
-.nav-home {
-    position: relative;
+.nav-links:hover {
     color: #EDA3B5;
+    transition: 0.5s;
 }
-.nav-home::after {
+.nav-links:hover::after {
     content: " ";
     position: absolute;
     width: 34px;
@@ -226,12 +227,8 @@ body {
     font-size: 18px;
 }
 .card-btn:hover {
-    background-color: #EFEFF4;
-    transition: 0.5s;
-    color: #000;
-}
-.card-one-btn {
     background-color:#EDA3B5;
+    transition: 0.5s;
 }
 .shop-img {
     position: relative;
@@ -328,5 +325,6 @@ body {
     padding: 25px 165px;
     color: #8E8E93;
 }
+
 
 
