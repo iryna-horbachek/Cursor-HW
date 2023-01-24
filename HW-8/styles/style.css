@@ -14,20 +14,15 @@ header, footer {
     width: 100%;
 }
 .header-container {
-    max-width: 1440px;
+    max-width: 1110px;
     margin: 0 auto;
 }
 .logo-info {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #F3F3F3;
     padding: 20px 0;
-}
-.header-img{
-    height: 539px;
-    background-image: url("../images/hero.png");  
-    padding-top: 103px;
 }
 .logo {
     color: #1B2437;
@@ -69,6 +64,16 @@ header, footer {
     width: 100%;
     transition: 1s;
 }
+.main-img-container {
+    height: 539px;
+    background-image: url("../images/hero.png");  
+    padding-top: 103px;
+    width: 100%;
+}
+.header-img{
+    max-width: 1110px;
+    margin: 0 auto;
+}
 .header-img-title {
     color: #fff;
     font-size: 48px;
@@ -81,7 +86,6 @@ header, footer {
 }
 .header-img-info {
     max-width: 446px;
-    margin-left: 164px;
 }
 .header-img-btn {
     width: 255px;
@@ -300,11 +304,12 @@ header, footer {
 }
 .footer-box {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 16px;
     padding-bottom: 50px;
-    max-width: 1440px;
     margin: 0 auto;
+    max-width: 1110px;
+    width: 100%;
 }
 .footer-links {
     margin-top: 22px;
@@ -327,14 +332,17 @@ header, footer {
     margin-top: 32px;
 }
 .footer-copyrights {
-    background-color: #E5E5EA;
+    max-width: 1110px;
     font-size: 12px;
     display: flex;
     justify-content: space-between;
-    padding: 25px 165px;
+    padding: 25px 0;
     color: #8E8E93;
+    margin: 0 auto;
 }
-
+.copyrights-container {
+    background-color: #E5E5EA;
+}
 
 
 
