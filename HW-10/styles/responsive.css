@@ -1,0 +1,335 @@
+
+@media only screen and (max-width: 720px) {
+    .bg-header-container {
+        background-image: none;
+    }
+    .bg-header {
+        display: none;
+    }
+    .header-container {
+        max-width: 660px;
+        text-align: center;
+    }
+    .header-info {
+        padding: 50px 40px 90px;
+        width: 100%;
+    }
+    .header-about {
+        max-width: 546px;
+    }
+    .header-btn-one {
+        margin-right: 0;
+    }
+    .logo-box {
+        justify-content: center;
+    }
+    .about-container {
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 660px;
+    } 
+    .about-info, .app-info {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        padding: 50px 0;
+    }
+    .about-info {
+        margin-left: 0;
+    }
+    .about-info-box {
+        max-width: 100%;
+        margin-top: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .football-image {
+        top: 5%;
+    }
+    .football-image-two {
+        top: 43%;
+        width: 320px;
+    }
+    .first-bg-box {
+        background: none;
+        height: auto;
+    }
+    .first-bg {
+        background-image: linear-gradient(to left, #FFFFFF 5.16%, #ffffff00 67.14%, #ffffff80), url(../images/Rectangle.png);
+        object-fit: scale-down;
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 100%;
+    }
+    .app-about {
+        display: flex;
+        justify-content: center;
+        max-width: 660px;
+        margin: 36px 20px;
+    }
+    .app-btn {
+        margin-right: 15px;
+    }
+    .second-container {
+        max-width: 660px;
+        display: flex;
+        flex-direction: column;
+    }
+    .bg-box {
+        background: none;
+    }
+    .second-box {
+        width: 100%;
+        margin: 62px 0;
+        padding: 0 20px;
+        text-align: center;
+    }
+    .second-text {
+        max-width: 660px;
+    }
+    .phone {
+        width: 100%;
+        background-image: url(../images/Group\ 672.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .third-section {
+        background-color: #FAFAFA;
+    }
+    .feature-container {
+        max-width: 660px;
+        color: #4F4F4F;
+    }
+    .title-feature {
+        color: #333333;
+        line-height: 37px;
+    }
+    .feature-info {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .icon-feature {
+        fill: #00ADEE;
+    }
+    .slick-dotted::before, .slick-dotted::after  {
+        height: 0%;
+    }
+    .arrow {
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    .prev {
+        position: absolute;
+        top: 45%;
+        left: 20%;
+    }
+    .next {
+        position: absolute;
+        top: 45%;
+        left: 80%;
+    }
+    .our-clients {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .our-app-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .bg-container {
+        background-image: none;
+    }
+    .bg-app {
+        background-image: url(../images/Group\ 692.svg);
+        background-repeat: no-repeat;
+        object-fit: scale-down;
+        height: 500px;
+        width: 100%;
+        background-size: cover;
+    }
+    .footer-container {
+        max-width: 660px;
+        flex-direction: column;
+        padding: 44px 0;
+    }
+    .logo-box-nav {
+        justify-content: flex-start;
+    }
+    nav {
+        order: 2;
+    }
+    .social-links {
+        order: 1;
+        margin: 11px 0 36px;
+    }
+    .icon-footer {
+        margin-left: 0;
+        margin-right: 17px;
+    }
+    .nav-links {
+        display: flex;
+        justify-content: space-between;
+    }
+   
+
+}
+
+
+
+@media only screen and (max-width: 360px) {
+    .bg-header-container {
+        background-image: none;
+    }
+    .bg-header {
+        display: none;
+    }
+    .header-container {
+        max-width: 320px;
+        text-align: center;
+    }
+    .header-title {
+        font-size: 1.9rem;
+    }
+    .header-about {
+        font-size: 1rem;
+    }
+    .header-btn {
+        width: 130px;
+        height: 44px;
+    }
+    .header-btn-box {
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-btn-one {
+        margin-right: 0;
+    }
+    .header-info {
+        padding: 32px 20px 59px;
+        width: 100%;
+    } 
+    .card-box {
+        font-size: 14px;
+        padding: 10px 5px 10px;
+    }
+    .info-teams, .footer-card {
+        font-size: 14px;
+    }
+    .card-btn {
+        position: relative;
+        max-width: 60px;
+    }
+    .rectangle {
+        position: absolute;
+        top: 5px;
+        left: 20px;
+        z-index: 1;
+    }
+    .ellipse {
+        position: absolute;
+        top: 0;
+        left: 10px;
+        z-index: 2;
+    }
+    .chelsea-fc, .arsenal-fc {
+        width: 52px;
+        height: 57px;
+    }
+    .card-info {
+        margin-right: 0;
+    }
+    .football-image {
+        width: 247px;
+        top: 70px;
+        left: 0;
+    }
+    .football-image-two {
+        width: 247px;
+        top: 198px;
+        left: 72px;
+    }
+    .first-bg {
+        height: 360px;
+    }
+    .about-info, .app-info {
+        padding: 50px 20px;
+    }
+    .second-container {
+        max-width: 320px;
+    }
+    .phone {
+        width: 100%;
+        background-image: url(../images/Group\ 672\ smaller.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .third-section {
+        background-color: #FAFAFA;
+    }
+    .feature-container {
+        max-width: 320px;
+        color: #4F4F4F;
+    }
+    .title-feature {
+        color: #333333;
+        line-height: 37px;
+    }
+    .feature-info {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .icon-feature {
+        fill: #00ADEE;
+    }
+    .slick-dotted::before, .slick-dotted::after  {
+        height: 0%;
+    }
+    .arrow {
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    .prev {
+        display: none!important;
+    }
+    .next {
+        position: absolute;
+        top: 45%;
+        left: 80%;
+    }
+    .slick-list {
+        padding: 0!important;
+    }
+    .app-about {
+        display: flex;
+        justify-content: center;
+        max-width: 320px;
+        margin: 36px 20px;
+    }
+    .bg-app {
+        height: 261px;
+        width: 100%;
+        background-size: cover;
+    }
+    .our-app-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .footer-container {
+        max-width: 320px;
+    }
+    .nav-links li {
+        margin-right: 10px;
+    }
+    .notifications-icon {
+        top: 10%;
+        left: 15%;
+    }
+    .contacts-icon {
+        left: 65%;
+    }
+
+}
