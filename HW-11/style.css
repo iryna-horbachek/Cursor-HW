@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --sword-width: 450px;
+}
+body {
+    background-color: white;
+}
+main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-sword {
+    width: var(--sword-width);
+    height: auto;
+    background: linear-gradient(141deg, rgb(140, 135, 135) 20%, black 80%);
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    padding: 70px 30px 0;
+    margin-top: 50px;
+}
+.sword {
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.sword-one {
+    background-color: rgb(52, 110, 110);
+    animation: sword-one-active;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-play-state: paused;
+    animation-iteration-count: infinite;
+}
+.sword-two {
+    display: flex;
+    justify-content: end;
+    background-color: rgb(79, 25, 25); 
+    animation-name: sword-two-active;
+    animation-timing-function: ease-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+}
+.sword-three {
+    background-color: rgb(17, 65, 17);
+    animation-name: sword-three-active;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-play-state: paused;
+    animation-fill-mode: backwards;
+}
+@keyframes sword-one-active {
+    to {
+        width: 0px;
+        opacity: 0;
+        translate: 90px -60px;
+        box-shadow: 5px 5px 20px rgb(223, 244, 244);
+    }
+}
+@keyframes sword-two-active {
+    to {
+       background-color:  rgb(215, 61, 61); 
+       box-shadow: 5px 5px 20px rgb(243, 166, 166); 
+       transform: rotate(50deg);
+       translate: 20px 60px;
+    }
+      }
+    
+@keyframes sword-three-active {
+    to {
+        background-color: rgb(54, 209, 54);
+        box-shadow: 5px 5px 20px rgb(165, 250, 165);
+        transform: rotate(-50deg);
+        translate: 0 20px;
+    }
+    }
+
+.handle {
+    width: 50px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.701);
+    transform: translateX(20px);
+}
+.handle-two {
+    margin-right: 40px;    
+}
+.buttons {
+    margin: 20px;
+    margin-top: 100px;
+}
+.btn {
+    font-size: 1.2rem;
+    font-weight: 800;
+    cursor: pointer;
+    background: rgba(192, 187, 193, 0.98);
+    padding: 5px;
+    border-radius: 5%;
+    color: #341645;
+    transition: transform 0.5s;
+    border: none;
+}
+.start {
+    margin-right: 20px;
+}
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px #b6a9bc;
+    background-color: rgba(223, 217, 224, 0.98);;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(#a02cc0, #a931b2 10%, #3f0c58 80%, #062745 100%);
+    border-radius: 50%;
+}
+.circle:first-child, .circle:last-child {
+    animation-name: balls-active;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-play-state: paused;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+} 
+.circle:last-child {
+    animation-delay: 1.5s;
+    animation-name: balls-active-last;
+}
+.ball-box {
+    display: flex;
+    margin-top: 80px;
+    
+}
+ @keyframes balls-active {
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(-40px, -40px);}
+    100% {transform: translate(0px, 0px);}
+    to {
+        background: linear-gradient(#c143e4, #e277ea 10%, #891dc0 80%, #09355f 100%);
+}
+}
+@keyframes balls-active-last {
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(40px, -40px);}
+    100% {transform: translate(0px, 0px);}
+    to {
+        background: linear-gradient(#c143e4, #e277ea 10%, #891dc0 80%, #09355f 100%);
+}
+}
+.actions {
+    margin: 40px 0;
+}
+.ball-btn {
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #b6a9bc;
+}
+.ball-btn:hover {
+    box-shadow: 3px 3px 5px #6c5d72;
+    transform: scale(1..1);
+    transition: transform 0.5s;
+}
+
+
+
+
+
+  
+    
+
+
+

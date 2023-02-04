@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations and transformations</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container-sword">
+            <div class="sword-box">
+                <div class="sword sword-one">
+                    <div class="handle"></div>
+                </div>
+                <div class="sword sword-two">
+                    <div class="handle handle-two"></div>
+                </div>
+                <div class="sword sword-three">
+                    <div class="handle"></div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="start btn">Start</button>
+                <button class="stop btn">Stop</button>
+            </div>
+        </div>
+        <div class="ball-box">
+            <div class="circle first-circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle last-circle"></div>
+        </div>
+        <div class="actions">
+            <button class="ball-btn on">On</button>
+            <button class="ball-btn off">Off</button>
+        </div>
+    </main>
+    <script>
+        const button1 = document.querySelector(".start");
+        const button2 = document.querySelector(".stop");
+
+        const sword2 = document.querySelector(".sword-two");
+        const sword3 = document.querySelector(".sword-three");
+        const sword1 = document.querySelector(".sword-one");
+
+        button1.onclick = () => {
+            sword2.style.animationPlayState = "running";
+            sword3.style.animationPlayState = "running";
+            sword1.style.animationPlayState = "running";
+        };
+
+        button2.onclick = () => {
+            sword2.style.animationPlayState = "paused";
+            sword3.style.animationPlayState = "paused";
+            sword1.style.animationPlayState = "paused";
+        };
+
+        const circleBtn1 = document.querySelector(".on");
+        const circleBtn2 = document.querySelector(".off");
+
+        const circle1 = document.querySelector(".first-circle");
+        const circle2 = document.querySelector(".last-circle");
+
+        circleBtn1.onclick = () => {
+            circle1.style.animationPlayState = "running";
+            circle2.style.animationPlayState = "running";
+        };
+
+        circleBtn2.onclick = () => {
+            circle1.style.animationPlayState = "paused";
+            circle2.style.animationPlayState = "paused";
+        };
+    </script>
+</body>
+
+</html>
