@@ -130,13 +130,13 @@ main {
 .circle:first-child, .circle:last-child {
     animation-name: balls-active;
     animation-duration: 3s;
-    animation-delay: 0s;
     animation-play-state: paused;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    animation-direction: alternate;
 } 
 .circle:last-child {
-    animation-delay: 1.5s;
+    animation-delay: 3s;
     animation-name: balls-active-last;
 }
 .ball-box {
@@ -146,16 +146,16 @@ main {
 }
  @keyframes balls-active {
     0% {transform: translate(0px, 0px);}
-    50% {transform: translate(-40px, -40px);}
-    100% {transform: translate(0px, 0px);}
+    50% {transform: translate(0px, 0px);}
+    100% {transform: translate(-40px, -40px);}
     to {
         background: linear-gradient(#c143e4, #e277ea 10%, #891dc0 80%, #09355f 100%);
 }
 }
 @keyframes balls-active-last {
     0% {transform: translate(0px, 0px);}
-    50% {transform: translate(40px, -40px);}
-    100% {transform: translate(0px, 0px);}
+    50% {transform: translate(0px, 0px);}
+    100% {transform: translate(40px, -40px);}
     to {
         background: linear-gradient(#c143e4, #e277ea 10%, #891dc0 80%, #09355f 100%);
 }
