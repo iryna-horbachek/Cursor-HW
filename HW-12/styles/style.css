@@ -1,0 +1,58 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.form-control {
+    max-width: 216px;
+}
+header {
+    border-bottom: 1px solid rgb(194, 192, 192);
+}
+.nav-box, .user-posts {
+    max-width: 945px;
+}
+.personal {
+    max-width: 776px;
+    padding-top: 29px;
+    padding-bottom: 55px;
+}
+.btn-primary {
+    font-size: 0.9rem;
+}
+.photo-name {
+   border: 1px solid #DBDBDB;
+   padding: 4px;
+   border-radius: 50%;
+}
+.link {
+    color: #133768;
+}
+.title-post {
+    font-size: 12px;
+    color: gray;
+}
+.title {
+    position: relative;
+}
+.title:hover .title-post {
+    color: black;
+    transition: 0.5s;
+}
+.posts-icon {
+    opacity: 50%;
+}
+.title::before {
+    content: " ";
+    width: 0%;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: -25px;
+    left: 0;
+}
+.title:hover::before {
+    width: 100%;
+    transition: 0.5s;
+}
+
+
